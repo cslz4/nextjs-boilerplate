@@ -10,12 +10,14 @@
     "prepare": "husky install",
     "test": "jest",
     "test:watch": "yarn test --watch",
+    "generate": "yarn plop --plopfile ./generators/plopfile.js",
     "storybook": "start-storybook -p 6006 -s ./public",
     "build-storybook": "build-storybook -s ./public"
   },
   "dependencies": {
     "next": "^11.0.1",
     "next-pwa": "^5.2.23",
+    "plop": "^2.7.4",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "styled-components": "^5.2.3"
